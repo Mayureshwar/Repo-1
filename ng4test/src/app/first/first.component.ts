@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-first',
@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./first.component.css']
 })
 export class FirstComponent implements OnInit {
+  @Output() callBack: EventEmitter<any> = new EventEmitter();
 
   constructor() { }
 
   ngOnInit() {
+    this.firstFunc();
+  }
+
+  firstFunc() {
+    console.log('HERE2');
+    this.callBack.emit(['ABC']);
   }
 
 }
