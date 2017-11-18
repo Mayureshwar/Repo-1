@@ -12,6 +12,6 @@ export class AppComponent {
   constructor() { }
 
   bindFunc(y) {
-    console.log('HERE1', y);
+    console.log(y);
   }
 }

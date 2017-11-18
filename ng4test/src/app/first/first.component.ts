@@ -15,7 +15,6 @@ export class FirstComponent implements OnInit {
   }
 
   firstFunc() {
-    console.log('HERE2');
     this.callBack.emit(['ABC']);
   }
 
