@@ -1,0 +1,22 @@
+{
+  "name": "ng4-test",
+  "version": "1.0.0",
+  "description": "Angular 4 practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayureshwar/Repo-1.git"
+  },
+  "author": "MJS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayureshwar/Repo-1/issues"
+  },
+  "homepage": "https://github.com/Mayureshwar/Repo-1#readme",
+  "devDependencies": {
+    "@angular/cli": "^1.5.2"
+  }
+}
